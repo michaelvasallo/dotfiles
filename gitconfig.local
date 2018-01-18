@@ -16,7 +16,7 @@
   changed = yellow
   untracked = red
 [merge]
-  ff = false
+  ff = true
 [user]
   name = Michael Vasallo
   email = mjrvasallo@gmail.com
