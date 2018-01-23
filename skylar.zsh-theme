@@ -16,5 +16,5 @@ function user_host() {
 
 PROMPT='%B$(user_host)%{$fg[cyan]%}%c $(git_prompt_info)${return_status} %{$reset_color%}%b'
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%}git:(%{$fg[red]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[blue]%}) "
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[blue]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX=" "
