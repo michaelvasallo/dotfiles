@@ -6,6 +6,3 @@ ZSH_THEME="skylar"
 source $ZSH/oh-my-zsh.sh
 source $HOME/.asdf/asdf.sh
 source $HOME/.asdf/completions/asdf.bash
-
-alias be='bundle exec'
-alias git=hub
