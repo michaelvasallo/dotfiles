@@ -1,8 +1,4 @@
-# Bundler
-alias bu='bundle update'
-alias be='bundle exec'
-
-# Git
+# GitHub
 alias git=hub
 
 # Reload the shell
