@@ -8,6 +8,7 @@ plugins=(
   bundler
   git
   osx
+  rails
 )
 
 source $ZSH/oh-my-zsh.sh
