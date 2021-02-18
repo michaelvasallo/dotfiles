@@ -6,6 +6,7 @@ ZSH_THEME="skylar"
 plugins=(
   asdf
   bundler
+  docker-compose
   git
   osx
   rails
