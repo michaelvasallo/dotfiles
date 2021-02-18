@@ -1,5 +1,9 @@
 # GitHub
 alias git=hub
 
+# Heroku
+alias hrcs="heroku run console -r staging"
+alias hrcp="heroku run console -r production"
+
 # Reload the shell
 alias reload="exec ${SHELL} -l"
