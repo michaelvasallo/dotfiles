@@ -1,6 +1,3 @@
-# Create symlink in oh-my-zsh custom directory:
-#   ln ~/dotfiles-local/skylar.zsh-theme ~/.oh-my-zsh/custom/themes
-
 local return_status="%(?:%{$fg[green]%}λ:%{$fg[red]%}λ)"
 
 function user_host() {

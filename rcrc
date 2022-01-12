@@ -1,3 +1,0 @@
-EXCLUDES="README*.md LICENSE"
-EXCLUDES="*.zsh-theme"
-DOTFILES_DIRS="$HOME/dotfiles-local $HOME/dotfiles"

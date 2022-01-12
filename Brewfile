@@ -1,0 +1,15 @@
+tap 'homebrew/cask'
+tap 'heroku/brew'
+
+brew 'asdf'
+brew 'gh'
+brew 'git'
+brew 'heroku'
+
+cask 'discord'
+cask 'github'
+cask 'google-chrome'
+cask 'slack'
+cask 'spotify'
+cask 'telegram-desktop'
+cask 'visual-studio-code'

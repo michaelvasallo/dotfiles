@@ -1,14 +1,14 @@
-export PATH="$HOME/.bin:$PATH"
+export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="skylar"
+ZSH_CUSTOM=$DOTFILES
 
 plugins=(
   asdf
   bundler
-  docker-compose
   git
-  osx
+  macos
   rails
 )
 
