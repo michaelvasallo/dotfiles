@@ -1,6 +1,6 @@
 export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
-export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/bin:/opt/homebrew/opt/libpq/bin:$PATH
 
 ZSH_THEME="skylar"
 ZSH_CUSTOM=$DOTFILES

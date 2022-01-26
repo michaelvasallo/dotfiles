@@ -13,14 +13,12 @@ if test ! $(which brew); then
 fi
 
 # Symlinks the dotfiles
-rm -rf $HOME/.zshrc
-rm -rf $HOME/.gitconfig
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
-ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
+rm -rf ~/.zshrc ~/.gitconfig
+ln -s ~/.dotfiles/.zshrc ~/.dotfiles/.gitconfig ~
 
 # Update Homebrew recipes
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-brew bundle --file $HOME/.dotfiles/Brewfile
+brew bundle --file ~/.dotfiles/Brewfile
