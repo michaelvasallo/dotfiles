@@ -13,6 +13,7 @@ brew 'redis'
 brew 'shared-mime-info'
 brew 'wget'
 
+cask 'authy'
 cask 'discord'
 cask 'google-chrome'
 cask 'slack'
