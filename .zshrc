@@ -21,4 +21,5 @@ plugins=(
 
 zstyle ':omz:update' mode auto
 
+source $DOTFILES/functions.zsh
 source $ZSH/oh-my-zsh.sh
