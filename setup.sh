@@ -5,7 +5,7 @@ echo "Setting up your Mac..."
 # Check for Oh My Zsh and install if we don't have it
 if ! command -v omz &> /dev/null; then
   echo "Installing Oh My Zsh..."
-  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" --unattended
 else
   echo "Oh My Zsh is already installed."
 fi
@@ -41,3 +41,4 @@ brew tap homebrew/bundle
 brew bundle --file ~/.dotfiles/Brewfile
 
 echo "Setup complete!"
+source ~/.zshrc"
