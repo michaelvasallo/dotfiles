@@ -14,7 +14,6 @@ plugins=(
 )
 
 path=(
-  $HOME/.local/opt/flutter/bin
   $HOME/.local/bin
   $HOME/.pub-cache/bin
   /opt/homebrew/bin
